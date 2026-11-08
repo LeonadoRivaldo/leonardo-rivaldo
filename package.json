@@ -1,0 +1,22 @@
+{
+  "name": "leonardo-rivaldo-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "npm run cv:build && vitepress dev src/docs",
+    "docs:build": "npm run cv:build && vitepress build src/docs",
+    "docs:preview": "vitepress preview src/docs",
+    "cv:build": "node scripts/cv.mjs build",
+    "cv:watch": "node scripts/cv.mjs watch"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  },
+  "dependencies": {
+    "chokidar": "^6.0.0",
+    "docx": "^9.15.3",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^15.0.3",
+    "pdfkit": "^0.20.2"
+  }
+}

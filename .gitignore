@@ -1,0 +1,13 @@
+node_modules/
+src/docs/.vitepress/cache/
+src/docs/.vitepress/dist/
+_internal/
+cvs/
+LR - Bundle.zip
+/src/docs/Notas_Consolidacao.md
+/src/docs/README - *.md
+src/docs/.vitepress/config.mts.timestamp-*.mjs
+src/docs/.vitepress/experiences.generated.mjs
+artifacts/*.tmp
+src/docs/public/*.tmp
+/.cv-build.lock
